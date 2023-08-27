@@ -1,0 +1,478 @@
+ @import url('https://fonts.googleapis.com/css2?family=Karla&family=Work+Sans:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: #f1f2f7;
+}
+
+header{
+    width: 100%;
+    background-color: #1e172f;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 25vh;
+    margin-left: 10%;
+}
+
+.menu-open{
+    display: none;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 10%;
+    
+}
+
+.menu{
+    font-size: 20px;
+    color: gray;
+    margin-right: 40px;
+}
+
+.menu:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.download{
+    border: 0; 
+    background-image: linear-gradient(
+        150deg,
+        #9500ff, 
+        #00ddff
+    );
+    border-radius: 5px;
+    color:white;
+    display: flex;
+    font-size: 18px;
+    padding: 15px 25px;
+    cursor: pointer;
+
+}
+
+.download:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+main{
+    width: 100%;
+}
+
+.section1{
+    width: 100%;
+    display: flex;
+}
+
+.morado{
+    width: 50%;
+    background-color: #2e2550;
+}
+
+.encaje{
+    width: 50%;
+    padding: 30% 0 15% 20%;
+}
+
+h1{
+    width: 90%;
+    color: white;
+    font-size: 90px;
+    margin-bottom: 50px;
+    
+}
+
+.subtitle{
+    font-size: 20px;
+    width: 50vh;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.casilla{
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 56vh;
+    padding: 5px 10px;
+}
+
+.butooms{
+    font-size: 20px;
+    background-color: #2e2550;
+    color: white;
+    border: solid 3px white;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 10px 25px;
+}
+
+.butooms:hover{
+    color: #ee58a5;
+    background-color: white;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+.hojas{
+    width: 50%;
+    background:url(./images/hojasFondo.jpg);
+    background-size: cover;
+}
+
+.phone{
+    height: 60%;
+    margin: 35% 0 -20% 20%;
+}
+
+.section2{
+    width: 100%;
+}
+
+.title2{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: #f41486;
+    text-align: center;
+    font-size: 50px;
+}
+.encaje2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+    
+}
+
+.list1{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 90%;
+    padding-right: 10%;
+}
+
+.laptop{
+    margin-right: 10%;
+    padding-left: 10%;
+    width: 35%;
+    height: 90%;
+}
+
+.subt{
+    font-size: 40px;
+    color: #d84792;
+    padding-bottom:  40px;
+}
+
+h3{
+    color: #f41486;
+    padding-bottom: 20px;
+    font-size: 25px;
+
+}
+
+.marketing{
+display: flex;
+align-items: start;
+flex-direction: column;
+
+}
+
+.check{
+    width: 3vh;
+    margin-right: 5px;
+}
+
+.checkp{
+display: flex;
+color: rgb(66, 66, 66);
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.section3{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: #1e172f;
+}
+
+.title3{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.pricingp{
+    color: rgb(134, 134, 134);
+    font-size: 18px;
+    text-align: center;
+    margin: 5px 25% 50px 25%;
+}
+
+.catalogo{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 15%;
+margin-right: 15%;
+}
+
+.target{
+    width: 27%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.head-pricing{
+    text-align: center;
+}
+
+.precio{
+    color: rgb(66, 66, 66);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.valor{
+    font-size: 50px;
+}
+
+.icon{
+    width: 2vh;
+    margin-right: 20px;
+}
+
+.options{
+    width: 25vh;
+    padding: 5px;
+    color: rgb(66, 66, 66);
+}
+
+.points{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.finish_pricing{
+color: rgb(66, 66, 66);
+font-size: 20px;
+margin-bottom: 30px;
+text-align: center;
+}
+
+.butoon-pink{
+margin-left:50px;
+border: 0; 
+background-image: linear-gradient(
+    300deg,
+    #f41486, 
+    #df8ab6
+);
+border-radius: 5px;
+color:white;
+font-size: 18px;
+padding: 15px 25px;
+cursor: pointer;
+}
+
+.butoon-pink:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.paga{
+    color:#1e172f;
+}
+
+.butoon-purple{
+margin-left:50px;
+border: 0; 
+background-color: #1e172f;
+border-radius: 5px;
+color:white;
+font-size: 18px;
+padding: 15px 25px;
+cursor: pointer;
+}
+
+.butoon-purple:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+footer{
+    background-color: white;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.links{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info{
+    color:rgb(66, 66, 66) ;
+    font-size: 15px;
+}
+
+.name{
+    font-size: 18px;
+color:#ee58a5
+}
+
+.iconfoot{
+    width: 3vh;
+    margin: 10px;  
+}
+
+@media screen and (max-width: 950px) {
+
+    .encaje {
+        padding: 20% 0 5% 10%;
+    }
+
+    .subtitle{
+        width: 40vh;
+    }
+
+    .casilla {
+        width: 41vh;
+    }
+
+    .catalogo{
+        display: block;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .target{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .options{
+        width: 50vh;
+    }
+
+    .butoon-pink{
+        margin-left: 150px;
+    }
+    
+    .butoon-purple{
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .menu{
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .section1{
+        display: block;
+    }
+
+    .morado{
+        width: 100%;
+    }
+
+    .encaje{
+        padding-top: 5% 5%;
+    }
+
+    .subtitle{
+        width: 55vh;
+    }
+
+    .hojas{
+        width: 100%;
+    }
+
+    .phone {
+        width: 20%;
+        margin: 5% 5% 5% 40%;
+    }
+
+    .encaje2{
+        display: block;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    ul{
+        margin-right: auto;
+    }
+
+    .list1 {
+        margin-top: 20px;
+        width: 60%;
+        text-align: center;
+    }
+
+    .pricingp{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 480px ) {
+
+    .menu-download{
+    margin-right: 5%;
+    }
+
+    .menu{
+        font-size: 8px;
+    }
+
+    .download{
+        padding: 10px 5px;
+        font-size: 10px;
+    }
+
+    .subtitle{
+        width: 45vh;
+    }
+
+    .casilla{
+        width: 42vh;
+    }
+
+    ul{
+        margin-right: auto;
+    }
+
+    .butoon-pink{
+        margin-left: 60px;
+    }
+    
+    .butoon-purple{
+        margin-left: 60px;
+    }
+}
